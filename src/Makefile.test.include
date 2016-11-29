@@ -1,7 +1,7 @@
-TESTS += test/test_bitcoin
-bin_PROGRAMS += test/test_bitcoin
+TESTS += test/test_zcash
+bin_PROGRAMS += test/test_zcash
 TEST_SRCDIR = test
-TEST_BINARY=test/test_bitcoin$(EXEEXT)
+TEST_BINARY=test/test_zcash$(EXEEXT)
 
 
 EXTRA_DIST += \
@@ -80,8 +80,8 @@ BITCOIN_TESTS =\
   test/sighash_tests.cpp \
   test/sigopcount_tests.cpp \
   test/skiplist_tests.cpp \
-  test/test_bitcoin.cpp \
-  test/test_bitcoin.h \
+  test/test_zcash.cpp \
+  test/test_zcash.h \
   test/timedata_tests.cpp \
   test/transaction_tests.cpp \
   test/uint256_tests.cpp \

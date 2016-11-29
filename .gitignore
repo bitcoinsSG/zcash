@@ -6,7 +6,7 @@ src/zcashd
 src/zcash-cli
 src/zcash-gtest
 src/zcash-tx
-src/test/test_bitcoin
+src/test/test_zcash
 src/qt/test/test_bitcoin-qt
 
 # Zcash utilities
