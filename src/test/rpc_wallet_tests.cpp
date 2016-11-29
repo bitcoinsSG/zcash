@@ -9,7 +9,7 @@
 #include "main.h"
 #include "wallet/wallet.h"
 
-#include "test/test_bitcoin.h"
+#include "test/test_zcash.h"
 
 #include "zcash/Address.hpp"
 

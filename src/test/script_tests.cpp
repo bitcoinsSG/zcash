@@ -13,7 +13,7 @@
 #include "script/script_error.h"
 #include "script/sign.h"
 #include "util.h"
-#include "test/test_bitcoin.h"
+#include "test/test_zcash.h"
 
 #if defined(HAVE_CONSENSUS_LIB)
 #include "script/zcashconsensus.h"

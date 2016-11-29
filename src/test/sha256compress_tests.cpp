@@ -1,4 +1,4 @@
-#include "test/test_bitcoin.h"
+#include "test/test_zcash.h"
 #include "crypto/sha256.h"
 #include "uint256.h"
 

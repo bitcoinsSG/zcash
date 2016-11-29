@@ -9,7 +9,7 @@
 #include "script/interpreter.h"
 #include "script/script.h"
 #include "serialize.h"
-#include "test/test_bitcoin.h"
+#include "test/test_zcash.h"
 #include "util.h"
 #include "version.h"
 #include "sodium.h"

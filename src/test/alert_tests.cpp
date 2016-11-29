@@ -20,7 +20,7 @@
 #include "util.h"
 #include "utilstrencodings.h"
 
-#include "test/test_bitcoin.h"
+#include "test/test_zcash.h"
 
 #include <fstream>
 
@@ -44,7 +44,7 @@
  * 2. Set the GENERATE_ALERTS_FLAG to true.
  *
  * 3. Build and run:
- *    test_bitcoin -t Generate_Alert_Test_Data
+ *    test_zcash -t Generate_Alert_Test_Data
  *
  * 4. Test data is saved in your current directory as alertTests.raw.NEW
  *    Copy this file to: src/test/data/alertTests.raw
@@ -57,7 +57,7 @@
  *    - Remove your private key from alertkeys.h
  *
  * 6. Build and verify the new test data:
- *    test_bitcoin -t Alert_tests
+ *    test_zcash -t Alert_tests
  *
  */
 #define GENERATE_ALERTS_FLAG false
